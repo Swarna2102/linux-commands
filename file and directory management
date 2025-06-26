@@ -1,0 +1,14 @@
+
+Command	Description
+ls-	List directory contents
+cd-	Change directory
+pwd-	Print current directory
+mkdir-	Make a new directory
+rmdir	-Remove empty directory
+touch	-Create an empty file
+cp	=Copy files or directories
+mv	-Move or rename files/directories
+rm	-Remove files or directories
+find-	Search for files in a directory hierarchy
+tree	-View directory structure as a tree (requires tree installed)
+stat	-Display detailed info about a file
