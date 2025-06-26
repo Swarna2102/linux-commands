@@ -1,0 +1,100 @@
+🔹 2. File Viewing and Editing
+Command	Description
+cat	Concatenate and display file content
+more / less	View file content page by page
+head	Show first 10 lines of a file
+tail	Show last 10 lines of a file
+nano, vim, vi	Command-line text editors
+cut	Remove sections from each line of files
+wc	Count lines, words, characters
+sort, uniq	Sort lines or find unique lines
+
+🔹 3. System Information
+Command	Description
+uname -a	All system information
+top / htop	Real-time system resource usage
+uptime	System uptime
+hostname	Show system hostname
+whoami	Current logged-in user
+id	Show user ID and group
+df -h	Disk space usage
+du -sh	Disk usage of a folder
+free -h	Memory usage
+lscpu, lsblk, lsusb, lspci	Show CPU, block devices, USB, PCI info
+
+🔹 4. Package Management (Depends on distro)
+For Debian/Ubuntu:
+Command	Description
+apt update	Refresh package list
+apt upgrade	Upgrade all packages
+apt install <package>	Install package
+apt remove <package>	Remove package
+dpkg -i	Install .deb package
+
+For Red Hat/CentOS:
+Command	Description
+yum install <package>	Install using YUM
+dnf install <package>	Newer YUM replacement
+
+🔹 5. User Management
+Command	Description
+adduser <username>	Add user
+passwd <username>	Set/change password
+deluser <username>	Delete user
+usermod -aG <group> <user>	Add user to group
+groups	Show user’s groups
+
+🔹 6. Permissions & Ownership
+Command	Description
+chmod	Change file permissions
+chown	Change file owner
+chgrp	Change file group
+umask	Show default permission mask
+
+🔹 7. Process Management
+Command	Description
+ps	View current processes
+kill <pid>	Kill process by PID
+killall <name>	Kill process by name
+bg / fg	Background/foreground process control
+jobs	List background jobs
+nice, renice	Set priority of processes
+
+🔹 8. Networking
+Command	Description
+ping <host>	Ping a server
+ifconfig / ip a	Show IP addresses
+netstat -tulnp	Show open ports
+ss -tuln	Socket statistics
+traceroute <host>	Trace route to host
+wget <url>	Download from the web
+curl <url>	Transfer data from or to a server
+
+🔹 9. Archiving & Compression
+Command	Description
+tar -cvf	Create tar file
+tar -xvf	Extract tar file
+gzip, gunzip	Compress/uncompress using gzip
+zip, unzip	Compress/uncompress zip files
+
+🔹 10. Shell and Scripting
+Command	Description
+echo	Print a message
+read	Read input
+alias	Create command shortcut
+history	Show command history
+bash, sh	Start a shell
+source file.sh	Run script in current shell
+
+🔹 11. Disk and Partition Management
+Command	Description
+fdisk	Partition table manipulator
+mount, umount	Mount/unmount file systems
+mkfs	Format disk
+fsck	Check and repair file systems
+
+🔹 12. Logs and System Monitoring
+Command	Description
+dmesg	Boot and kernel messages
+journalctl	View systemd logs
+tail -f /var/log/syslog	Live system logs
